@@ -364,3 +364,70 @@ INFO  2020-05-28 14:00:38,732 [50   ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2020-05-28 14:00:38,740 [50   ] c.Infrastructure.ControllerActionInvoker - Executed action Faker.Solution.Users.UserAppService.GetAllAsync (Faker.Solution.Application) in 4655.6951ms
 INFO  2020-05-28 14:00:38,743 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Faker.Solution.Users.UserAppService.GetAllAsync (Faker.Solution.Application)'
 INFO  2020-05-28 14:00:38,745 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4709.0376ms 401 application/json; charset=utf-8
+DEBUG 2020-05-28 15:59:35,430 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-28 15:59:35,539 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2020-05-28 15:59:35,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Faker.Solution.Web.Host.Startup.SolutionWebHostModule, Faker.Solution.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Faker.Solution.SolutionWebCoreModule, Faker.Solution.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Faker.Solution.SolutionApplicationModule, Faker.Solution.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Faker.Solution.SolutionCoreModule, Faker.Solution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,562 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,562 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,564 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Service.Demo.Application.DemoApplicationModule, Service.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Faker.Solution.EntityFrameworkCore.SolutionEntityFrameworkModule, Faker.Solution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:35,571 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2020-05-28 15:59:35,734 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-28 15:59:35,734 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-28 15:59:35,735 [1    ] o.Configuration.LanguageManagementConfig - Converted Solution (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-28 15:59:35,735 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-28 15:59:36,382 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Faker.Solution.EntityFrameworkCore.SolutionDbContext, Faker.Solution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-28 15:59:37,284 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-28 15:59:37,412 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-28 15:59:37,457 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-28 15:59:37,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Solution
+DEBUG 2020-05-28 15:59:37,527 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-28 15:59:37,772 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-28 15:59:37,913 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Faker.Solution.MultiTenancy.Tenant, Faker.Solution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Faker.Solution.Authorization.Users.User, Faker.Solution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-28 15:59:37,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-28 15:59:37,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-28 15:59:37,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.Users.Dto.CreateUserDto
+DEBUG 2020-05-28 15:59:37,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.Users.Dto.UserDto
+DEBUG 2020-05-28 15:59:37,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-28 15:59:37,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-28 15:59:37,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.Roles.Dto.PermissionDto
+DEBUG 2020-05-28 15:59:37,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-28 15:59:37,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Faker.Solution.MultiTenancy.Dto.TenantDto
+INFO  2020-05-28 15:59:41,697 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-05-28 15:59:42,737 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+WARN  2020-05-28 15:59:42,953 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://localhost:21021/'. Binding to endpoints defined in UseKestrel() instead.
+INFO  2020-05-28 15:59:44,501 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-28 15:59:44,960 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Faker.Solution.Web.Host.Controllers.HomeController.Index (Faker.Solution.Web.Host)'
+INFO  2020-05-28 15:59:48,170 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Faker.Solution.Web.Host.Controllers.HomeController (Faker.Solution.Web.Host).
+INFO  2020-05-28 15:59:49,448 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-28 15:59:49,455 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Faker.Solution.Web.Host.Controllers.HomeController.Index (Faker.Solution.Web.Host) in 1280.0378ms
+INFO  2020-05-28 15:59:49,459 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Faker.Solution.Web.Host.Controllers.HomeController.Index (Faker.Solution.Web.Host)'
+INFO  2020-05-28 15:59:49,469 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4975.1487ms 302 
+INFO  2020-05-28 15:59:49,541 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-28 15:59:49,697 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 157.3932ms 200 text/html;charset=utf-8
+INFO  2020-05-28 15:59:49,802 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-28 15:59:49,803 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-28 15:59:49,932 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\App\Git\Faker解决方案项目\FakerSolution\5.5.0\aspnet-core\src\Faker.Solution.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-28 15:59:49,934 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\App\Git\Faker解决方案项目\FakerSolution\5.5.0\aspnet-core\src\Faker.Solution.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-28 15:59:49,937 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 130.4476ms 200 application/javascript
+INFO  2020-05-28 15:59:49,940 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 133.2613ms 200 application/javascript
+INFO  2020-05-28 15:59:49,969 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-28 15:59:49,975 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Faker.Solution.Web.Host.Controllers.AntiForgeryController.SetCookie (Faker.Solution.Web.Host)'
+INFO  2020-05-28 15:59:49,985 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Faker.Solution.Web.Host.Controllers.AntiForgeryController (Faker.Solution.Web.Host).
+INFO  2020-05-28 15:59:50,013 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-28 15:59:50,028 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/default/swagger.json  
+INFO  2020-05-28 15:59:50,226 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.8719ms 200 application/json;charset=utf-8
+INFO  2020-05-28 15:59:50,280 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Faker.Solution.Web.Host.Controllers.AntiForgeryController.SetCookie (Faker.Solution.Web.Host) in 292.0171ms
+INFO  2020-05-28 15:59:50,295 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Faker.Solution.Web.Host.Controllers.AntiForgeryController.SetCookie (Faker.Solution.Web.Host)'
+INFO  2020-05-28 15:59:50,299 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 326.7823ms 200 application/json; charset=utf-8
