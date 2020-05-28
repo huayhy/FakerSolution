@@ -136,6 +136,7 @@ namespace Faker.Solution.Web.Host.Startup
                     options.IocManager.IocContainer.AddFacility<LoggingFacility>(
                          f => f.UseAbpLog4Net().WithConfig("log4net.config")
 
+                         
                      );
 
                     // 如果存在插件目录则加入运行时环境
