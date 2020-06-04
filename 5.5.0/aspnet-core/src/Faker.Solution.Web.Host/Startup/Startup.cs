@@ -27,6 +27,7 @@ namespace Faker.Solution.Web.Host.Startup
     public class Startup
     {
         private const string _defaultCorsPolicyName = "localhost";
+        private const string _anyCorsPolicyName = "any";
 
         private const string _apiVersion = "v1";
 
@@ -87,6 +88,17 @@ namespace Faker.Solution.Web.Host.Startup
                         .AllowCredentials()
                 )
             );
+
+            // 允许所有跨域
+            services.AddCors(options =>
+            {
+                options.AddPolicy(_anyCorsPolicyName, builder =>
+                {
+                    //所有都可以该用，相当于禁止了CORS
+                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+                });
+            });
+
 
             // Swagger - Enable this line and the related lines in Configure method to enable swagger UI
             // 添加Swagger分组服务配置
@@ -153,7 +165,7 @@ namespace Faker.Solution.Web.Host.Startup
         {
             app.UseAbp(options => { options.UseAbpRequestLocalization = false; }); // Initializes ABP framework.
 
-            app.UseCors(_defaultCorsPolicyName); // Enable CORS!
+            //app.UseCors(_defaultCorsPolicyName); // Enable CORS!
 
             app.UseStaticFiles();
 
@@ -162,6 +174,8 @@ namespace Faker.Solution.Web.Host.Startup
             app.UseAuthentication();
 
             app.UseAbpRequestLocalization();
+
+            app.UseCors(_appConfiguration["App:CorsOrigins"].Contains("*:*") ? _anyCorsPolicyName : _defaultCorsPolicyName); // Enable CORS!
 
             app.UseEndpoints(endpoints =>
             {
